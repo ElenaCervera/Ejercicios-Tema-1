@@ -26,4 +26,5 @@ print(numero)
 if len(numero) !=4:
     print("El número es incorrecto")
 else:
-    for i in range()
+    for i in range():
+        
