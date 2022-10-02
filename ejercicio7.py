@@ -10,14 +10,35 @@
 
 #Puedes utilizar la sintaxis "elemento in lista"
 
-elementos = [1, 5, -2]
+elementos=[10, -2, "Hola"]
 
 def agregar_una_vez(lista, elemento):
-    
-    if elemento in lista:
-        print("Error: Imposible añadir elementos duplicados => [elemento].")
-    lista.append(elemento)  
-    
+  lista=[5,3,7,1,8]
+  elemento=2
+  print(lista)
+  if len(lista)==0:
+        lista.append(elemento)
+        print(lista)
+  else:
+    for el in lista:
+        if el == elemento:
+            print("Error: Imposible añadir elementos duplicados => [elemento].")
+        else:
+          lista.append(elemento) 
+          break
+  print(lista)
+
+
+
+
+
+
+
+
+
+
+
+            
     
 
 
